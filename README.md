@@ -6,6 +6,7 @@ Estee Lauder, ULTA, and interparfums. The data is prepared in the folder data as
 ## environment setup
 
 Prerequite: anaconda
+OS: iOS, Linux (should be), Windows (unknown)
 
 1. conda create --name cosnova-covid19 python=3.7 -y
 2. conda env update --name cosnova-covid19 --file=imported_packages.yml
