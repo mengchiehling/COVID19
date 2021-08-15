@@ -1,0 +1,22 @@
+#conda create --name cosnova-covid19 python=3.7
+#conda env update --name cosnova-covid19 --file=imported_packages.yml
+name: cosnova-covid19
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - pyyaml
+  - numpy
+  - pandas
+  - matplotlib
+  - pip
+  - openpyxl
+  - jupyterlab
+  - jupyter
+  - statsmodels
+
+
+
+
+
+
